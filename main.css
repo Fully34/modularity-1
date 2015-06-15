@@ -1,8 +1,22 @@
 /* ADD YOUR STYLES HERE */
-/*
-* {
+
+*{
     box-sizing: border-box;
-}*/
+}
+
+/*===========================================================================*/
+                       /* ~~~ CLEARFIX ~~~ */
+/*===========================================================================*/
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+/*===========================================================================*/
+                       /* ~~~ TABLES ~~~ */
+/*===========================================================================*/
+
 .header-row {
     font-weight: bold;
 }
@@ -35,8 +49,103 @@
 
 .big-text {
     font-size: 36px;
+    font-weight: bold;
 }
 
 .baby-text {
+    font-size: 10px;
+    color: #c7c7c7;
+}
+
+.small-table {
+    width: 33.33%;
+    min-width: 200px;
+}
+
+/*===========================================================================*/
+                       /* ~~~ BAR GRAPH ~~~ */
+/*===========================================================================*/
+
+.make-em-bars {
+    background-color: #599ede;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+    padding-left: 10px;
+    color: white;
+}
+
+.fixed-to-text{
+    width: 100%;
+}
+.fixed-to-text th {
+    width: 100px;
+    padding: 0;
+}
+
+
+/*===========================================================================*/
+                       /* ~~~ LIGHTBOX ~~~ */
+/*===========================================================================*/
+
+/*.lightbox-container{
+    background-color: rgba(0,0,0,0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.lightbox {
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    height: 220px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    padding: 15px;
+}
+
+.button {
+    background-color: #ED818A;
+    border-radius: 5px;
+    border: 1px solid #ED818A;
+    padding: 8px 15px;
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}*/
+
+/*===========================================================================*/
+                       /* ~~~ MEDIA BLOCK ~~~ */
+/*===========================================================================*/
+
+.clear {
     
 }
+
+img.clear{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+
+}
+p.clear{
+    display: inline-block;
+    width: 90%;
+    margin: 0 0 0 5px;
+    height: 50px;
+}
+
+/*===========================================================================*/
+                       /* ~~~ NEXT MEDIA BLOCK ~~~ */
+/*===========================================================================*/
+
