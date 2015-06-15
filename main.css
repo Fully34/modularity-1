@@ -1,0 +1,35 @@
+/* ADD YOUR STYLES HERE */
+/*
+* {
+    box-sizing: border-box;
+}*/
+.header-row {
+    font-weight: bold;
+
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.marginfied{
+
+}
+
+.table-width {
+    width: 900px;
+}
+
+.underline {
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.let-it-breathe {
+    display: block;
+    border-collapse: collapse;
+    border-spacing: 15px;
+}
+
+
