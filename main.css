@@ -128,9 +128,6 @@
                        /* ~~~ MEDIA BLOCK ~~~ */
 /*===========================================================================*/
 
-.clear {
-    
-}
 
 img.clear{
     display: inline-block;
@@ -138,14 +135,37 @@ img.clear{
     height: 50px;
 
 }
-p.clear{
+.clear{
     display: inline-block;
     width: 90%;
     margin: 0 0 0 5px;
-    height: 50px;
+    height: auto;
 }
 
+.inline-block {
+    display: inline-block;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.margin-left {
+    margin-left: 65px;
+}
 /*===========================================================================*/
                        /* ~~~ NEXT MEDIA BLOCK ~~~ */
 /*===========================================================================*/
+
+
+
 
